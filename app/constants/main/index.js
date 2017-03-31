@@ -1,4 +1,6 @@
 export const MAIN = {
-	SERVER_HTTP_PORT: '',
-	
-}
+	SERVER_HTTP_IP: '0.0.0.0',
+	SERVER_HTTP_PORT: 7070,
+	SERVER_TCPIP_PORT: 1337,
+	SERVER_TCPIP_IP: '0.0.0.0'
+};
