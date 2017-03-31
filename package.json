@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-realtime-chat",
+  "version": "0.0.1",
+  "description": "A realtime chat with socketio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almeida-matheus/NodejsRealtimeChat.git"
+  },
+  "keywords": [
+    "Sockeio",
+    "realtime",
+    "chat",
+    "nodejs",
+    "server"
+  ],
+  "author": "Matheus Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almeida-matheus/NodejsRealtimeChat/issues"
+  },
+  "homepage": "https://github.com/almeida-matheus/NodejsRealtimeChat#readme"
+}
