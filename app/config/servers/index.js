@@ -6,6 +6,7 @@ import colors from 'colors/safe';
 import cors from 'cors';
 import helmet from 'helmet';
 import compression from 'compression';
+import * as utils from '../../modules/utils';
 
 export default (app) => {
 	let server = http.createServer(app);
@@ -28,6 +29,10 @@ export default (app) => {
 
 		client.on('message', (message) => {
 			winston.log('info', colors.red('IO Server:'), colors.cyan(`New message from client: ${JSON.stringify(message)}`));
+
+			if (utils.notEmpty(message.nickname) && utils.notEmpty(message.message) && utils.notEmpty(message.color)) {
+				io.emit('server-message', message);
+			}
 		});
 	});
 };
