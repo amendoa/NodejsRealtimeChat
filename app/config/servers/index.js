@@ -16,7 +16,7 @@ export default (app) => {
 	app.use(helmet());
 	app.use(cors());
 
-	server.listen(mainConstants.MAIN.SERVER_HTTP_PORT, mainConstants.MAIN.SERVER_HTTP_IP, () => {
+	server.listen(app.get('port'), mainConstants.MAIN.SERVER_HTTP_IP, () => {
 		winston.log('info', colors.magenta('HTTP Server:'), colors.cyan(`Listering on ${mainConstants.MAIN.SERVER_HTTP_IP}:${mainConstants.MAIN.SERVER_HTTP_PORT}`));
 	});
 
