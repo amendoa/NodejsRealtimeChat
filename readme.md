@@ -1,5 +1,5 @@
-# Node.js Realtime chat back-end
-Is a back-end for a little Realtime chat app (Is just for learning)
+# Node.js Real-time chat Back-end
+Is a server for a little Real-time chat app (Is just for learning)
 
 # I'm using
   - Nodejs
