@@ -1,12 +1,12 @@
 # Node.js Real-time chat Back-end
-Is a server for a little Real-time chat app (Is just for learning)
+Server for a little Real-time chat app (It's just for learning)
 
-# I'm using
+# Relevant libs that i'm using
   - Nodejs
   - Socket.io
 
 ### Installation
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies, so start the server.
 
 ```sh
 $ npm install
